@@ -12,12 +12,11 @@ print("ini adalah", type(desimal), "isivariabelnya", desimal)
 teks = input("Masukkan teks: ")
 print("ini adalah", type(teks), "isi variabelnya", teks)
 
+
 # boolean
-input("boolean a atau b: ")
-a = True
-b = False
-print("ini adalah", type(a), "isivariabelnya", a)
-print("ini adalah", type(b), "isivariabelnya", b)
+
+x = bool(input("masukkan angka atau langsung enter: "))
+print("ini adalah", type(bool), "isi variabelnya"),print (bool(x)) 
 
 
 
